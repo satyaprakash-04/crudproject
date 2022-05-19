@@ -4,6 +4,7 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from django.urls import reverse_lazy
 
 # Create your views here.
+# this is the crud api view created by satyaprakash
 
 
 class EmployeeListView(ListView):
