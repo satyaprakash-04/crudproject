@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    {{form.as_p}}
+    {% csrf_token %}
+    <button type="submit" value="Add Employee">add</button>
+    <a href="/delete/{{employee.id}}" >delete</a>
+</form>
+</body>
+</html>

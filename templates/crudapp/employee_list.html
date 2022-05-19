@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for emp in employee_list %}
+<p>Emplyee id: {{emp.id}}</p>
+<p>Employeee No{{emp.eno}}</p>
+<p>Employee name{{emp.ename}}</p>
+<p>Employee address: {{emp.eaddress}}</p>
+<p>Employee Salary: {{emp.esal}}</p>
+<hr>
+{% endfor %}
+</body>
+</html>
