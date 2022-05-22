@@ -4,7 +4,7 @@ def factorial(n):
   elif n == 1:
     result = 1
   else:
-    result = factorial(n) * factorial(n-1)
+    result = n * factorial(n-1)
   return result
 
-factorial(5)
+print(factorial(5))
